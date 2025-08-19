@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="hero-buttons">
               <a 
-                href="/public/images/Kinjal_Kaneriya.pdf" 
+                href="/images/Kinjal_Kaneriya.pdf" 
                 className="btn btn-primary" 
                 download="Kinjal_Kaneriya.pdf"
               >
