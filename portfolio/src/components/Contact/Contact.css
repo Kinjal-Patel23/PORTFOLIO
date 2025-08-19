@@ -1,0 +1,139 @@
+/* components/Contact.css */
+.contact {
+  position: relative;
+}
+
+.contact-content {
+  display: flex;
+  gap: 70px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-info h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #94a3b8;
+}
+
+.contact-item {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.contact-icon {
+  flex: 0 0 60px;
+  height: 60px;
+  background: rgba(21, 25, 55, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4cc9f0;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  border: 1px solid rgba(76, 201, 240, 0.2);
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  color: #ffffff;
+  transform: translateY(-5px);
+}
+
+.contact-text h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #e2e8f0;
+}
+
+.contact-text p {
+  margin: 0;
+  color: #94a3b8;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.social-link {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(21, 25, 55, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94a3b8;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(76, 201, 240, 0.2);
+}
+
+.social-link:hover {
+  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  color: #ffffff;
+  transform: translateY(-5px);
+}
+
+.contact-form {
+  flex: 1;
+  background: rgba(21, 25, 55, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  border: 1px solid rgba(76, 201, 240, 0.1);
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid rgba(76, 201, 240, 0.2);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #e2e8f0;
+  background: rgba(10, 14, 39, 0.5);
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4cc9f0;
+  box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.1);
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+@media (max-width: 992px) {
+  .contact-content {
+    flex-direction: column;
+  }
+}

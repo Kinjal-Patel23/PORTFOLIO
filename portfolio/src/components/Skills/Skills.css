@@ -1,0 +1,108 @@
+/* components/Skills.css */
+.skills {
+  position: relative;
+}
+
+.skills-content {
+  display: flex;
+  gap: 70px;
+}
+
+.skills-text {
+  flex: 1;
+}
+
+.skills-text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.skills-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #94a3b8;
+}
+
+.skills-bars {
+  flex: 1;
+  background: rgba(21, 25, 55, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(76, 201, 240, 0.1);
+}
+
+.skill-item {
+  margin-bottom: 25px;
+}
+
+.skill-item:last-child {
+  margin-bottom: 0;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.skill-level {
+  color: #4cc9f0;
+  font-weight: 600;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  border-radius: 5px;
+  transition: width 1.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-progress::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (max-width: 992px) {
+  .skills-content {
+    flex-direction: column;
+  }
+}
