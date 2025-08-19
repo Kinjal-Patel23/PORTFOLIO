@@ -105,7 +105,7 @@
   transform: scale(1.1);
 }
 .video-btn {
-  font-size: 1.5rem; /* Make the video icon slightly larger */
+  font-size: 1.5rem; 
 }
 .project-info {
   padding: 25px;

@@ -20,7 +20,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Form submission logic would go here
     console.log('Form submitted:', formData);
     alert('Thank you for your message! I will get back to you soon.');
     setFormData({
@@ -73,9 +72,6 @@ const Contact = () => {
               </div>
             </div>
             <div className="social-links">
-              {/* <a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a>
-              <a href="#" className="social-link"><i className="fab fa-twitter"></i></a> */}
-              {/* <a href="#" className="social-link"><i className="fab fa-instagram"></i></a> */}
               <a href="https://www.linkedin.com/in/kinjal-kaneriya-a32a0a353" target="_blank" className="social-link"><i className="fab fa-linkedin-in"></i></a>
               <a href="https://github.com/Kinjal-Patel23" target="_blank" className="social-link"><i className="fab fa-github"></i></a>
             </div>

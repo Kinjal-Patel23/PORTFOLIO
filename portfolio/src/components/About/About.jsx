@@ -37,20 +37,6 @@ const About = () => {
                 what I've learned to become better each day.
               </p>
             </div>
-            {/* <div className="about-info">
-              <div className="info-item">
-                <span className="info-label">Name:</span>
-                <span className="info-value">Kinjal Kaneriya</span>
-              </div>
-              <div className="info-item">
-                <span className="info-label">Email:</span>
-                <span className="info-value">kinjalkaneriya2311@gmail.com</span>
-              </div>
-              <div className="info-item">
-                <span className="info-label">Location:</span>
-                <span className="info-value">Rajkot, Gujarat</span>
-              </div>
-            </div> */}
             <div className="about-button">
               <a href="#contact" className="btn btn-primary">
                 Contact Me
