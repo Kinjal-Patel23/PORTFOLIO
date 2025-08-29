@@ -1,16 +1,17 @@
 // components/Skills.js
-import React from 'react';
-import './Skills.css';
+import React from "react";
+import "./Skills.css";
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML/CSS', level: 95 },
-    { name: 'Tailwind CSS', level: 95 },
-    { name: 'JavaScript', level: 90 },
-    { name: 'React', level: 85 },
-    { name: 'Node.js', level: 75 },
-    { name: 'MongoDB', level: 70 },
-    { name: 'Responsive Design', level: 95 },
+    { name: "HTML/CSS", level: 95 },
+    { name: "Tailwind CSS", level: 95 },
+    { name: "JavaScript", level: 90 },
+    { name: "React", level: 85 },
+    { name: "Node.js", level: 75 },
+    { name: "Express.js", level: 75 },
+    { name: "MongoDB", level: 70 },
+    { name: "Responsive Design", level: 95 },
   ];
 
   return (
@@ -23,10 +24,16 @@ const Skills = () => {
           <div className="skills-text">
             <h3>My Expertise Areas</h3>
             <p>
-              I specialize in building complete web applications — from designing responsive frontends to developing robust backends. My expertise includes frontend technologies, server-side development, database integration, and creating smooth user experiences.
+              I specialize in building complete web applications — from
+              designing responsive frontends to developing robust backends. My
+              expertise includes frontend technologies, server-side development,
+              database integration, and creating smooth user experiences.
             </p>
             <p>
-              I’m passionate about clean code, modern design principles, and writing scalable, maintainable applications. I continuously focus on improving my skills, building real-world projects, and becoming a better developer with each step.
+              I’m passionate about clean code, modern design principles, and
+              writing scalable, maintainable applications. I continuously focus
+              on improving my skills, building real-world projects, and becoming
+              a better developer with each step.
             </p>
           </div>
           <div className="skills-bars">
@@ -37,8 +44,8 @@ const Skills = () => {
                   <span className="skill-level">{skill.level}%</span>
                 </div>
                 <div className="skill-bar">
-                  <div 
-                    className="skill-progress" 
+                  <div
+                    className="skill-progress"
                     style={{ width: `${skill.level}%` }}
                   ></div>
                 </div>
