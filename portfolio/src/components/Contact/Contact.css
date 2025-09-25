@@ -1,6 +1,8 @@
 /* components/Contact.css */
 .contact {
   position: relative;
+  background-color: #000000;
+  padding: 100px 0;
 }
 
 .contact-content {
@@ -24,7 +26,7 @@
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 30px;
-  color: #94a3b8;
+  color: #a8a8a8;
 }
 
 .contact-item {
@@ -36,21 +38,21 @@
 .contact-icon {
   flex: 0 0 60px;
   height: 60px;
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #4cc9f0;
+  color: #9d4edd;
   font-size: 1.3rem;
   margin-right: 20px;
-  border: 1px solid rgba(76, 201, 240, 0.2);
+  border: 1px solid rgba(157, 78, 221, 0.2);
   transition: all 0.3s ease;
 }
 
 .contact-item:hover .contact-icon {
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   color: #ffffff;
   transform: translateY(-5px);
 }
@@ -64,7 +66,7 @@
 
 .contact-text p {
   margin: 0;
-  color: #94a3b8;
+  color: #a8a8a8;
 }
 
 .social-links {
@@ -77,30 +79,30 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #94a3b8;
+  color: #a8a8a8;
   font-size: 1.2rem;
   transition: all 0.3s ease;
-  border: 1px solid rgba(76, 201, 240, 0.2);
+  border: 1px solid rgba(157, 78, 221, 0.2);
 }
 
 .social-link:hover {
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   color: #ffffff;
   transform: translateY(-5px);
 }
 
 .contact-form {
   flex: 1;
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 40px;
-  border: 1px solid rgba(76, 201, 240, 0.1);
+  border: 1px solid rgba(157, 78, 221, 0.2);
 }
 
 .form-group {
@@ -111,11 +113,11 @@
 .form-group textarea {
   width: 100%;
   padding: 15px 20px;
-  border: 1px solid rgba(76, 201, 240, 0.2);
+  border: 1px solid rgba(157, 78, 221, 0.2);
   border-radius: 10px;
   font-size: 1rem;
   color: #e2e8f0;
-  background: rgba(10, 14, 39, 0.5);
+  background: rgba(10, 10, 10, 0.7);
   transition: all 0.3s ease;
   font-family: 'Inter', sans-serif;
 }
@@ -123,8 +125,8 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #4cc9f0;
-  box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.1);
+  border-color: #9d4edd;
+  box-shadow: 0 0 0 3px rgba(157, 78, 221, 0.1);
 }
 
 .form-group textarea {

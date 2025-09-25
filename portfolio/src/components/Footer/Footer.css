@@ -1,10 +1,10 @@
 /* components/Footer.css */
 .footer {
-  background: rgba(10, 14, 39, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(10px);
   padding: 60px 0 20px;
   color: #e2e8f0;
-  border-top: 1px solid rgba(76, 201, 240, 0.1);
+  border-top: 1px solid rgba(157, 78, 221, 0.2);
 }
 .footer-content {
   display: flex;
@@ -18,13 +18,13 @@
   color: #ffffff;
   text-decoration: none;
   font-family: 'Space Grotesk', sans-serif;
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 .footer-text p {
-  color: #94a3b8;
+  color: #a8a8a8;
 }
 .footer-social {
   display: flex;
@@ -34,27 +34,27 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #94a3b8;
+  color: #a8a8a8;
   transition: all 0.3s ease;
-  border: 1px solid rgba(76, 201, 240, 0.2);
+  border: 1px solid rgba(157, 78, 221, 0.2);
 }
 .footer-social .social-link:hover {
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   color: #ffffff;
   transform: translateY(-3px);
 }
 .footer-bottom {
   text-align: center;
   padding-top: 20px;
-  border-top: 1px solid rgba(76, 201, 240, 0.1);
+  border-top: 1px solid rgba(157, 78, 221, 0.2);
 }
 .footer-bottom p {
-  color: #94a3b8;
+  color: #a8a8a8;
 }
 .footer-bottom i {
   color: #e74c3c;
@@ -66,7 +66,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #4cc9f0, #7209b7);
+  background: linear-gradient(135deg, #9d4edd, #240046);
   border: none;
   color: #ffffff;
   font-size: 1.2rem;
@@ -75,7 +75,7 @@
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(76, 201, 240, 0.3);
+  box-shadow: 0 4px 15px rgba(157, 78, 221, 0.3);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -97,7 +97,7 @@
 
 .back-to-top:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(76, 201, 240, 0.4);
+  box-shadow: 0 8px 20px rgba(157, 78, 221, 0.4);
 }
 
 .back-to-top:hover::before {

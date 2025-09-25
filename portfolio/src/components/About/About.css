@@ -2,6 +2,7 @@
 .about {
   position: relative;
   padding: 100px 0;
+  background-color: #000000;
 }
 
 .about-content {
@@ -41,7 +42,7 @@
   left: 0;
   width: 80px;
   height: 3px;
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   border-radius: 2px;
 }
 
@@ -53,17 +54,17 @@
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 20px;
-  color: #94a3b8;
+  color: #a8a8a8;
   text-align: left;
 }
 
 .about-info {
   margin-bottom: 40px;
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 30px;
-  border: 1px solid rgba(76, 201, 240, 0.1);
+  border: 1px solid rgba(157, 78, 221, 0.2);
 }
 
 .info-item {
@@ -78,7 +79,7 @@
 
 .info-label {
   font-weight: 600;
-  color: #4cc9f0;
+  color: #9d4edd;
   margin-right: 15px;
   min-width: 80px;
 }
@@ -118,7 +119,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(76, 201, 240, 0.2), rgba(114, 9, 183, 0.2));
+  background: linear-gradient(135deg, rgba(157, 78, 221, 0.2), rgba(36, 0, 70, 0.2));
   z-index: -1;
   transition: all 0.3s ease;
 }
@@ -128,7 +129,7 @@
 }
 
 .tech-icon:hover::before {
-  background: linear-gradient(135deg, rgba(76, 201, 240, 0.4), rgba(114, 9, 183, 0.4));
+  background: linear-gradient(135deg, rgba(157, 78, 221, 0.4), rgba(36, 0, 70, 0.4));
 }
 
 .html {
@@ -156,24 +157,24 @@
 }
 
 .experience-card {
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 30px;
-  border: 1px solid rgba(76, 201, 240, 0.1);
+  border: 1px solid rgba(157, 78, 221, 0.2);
   text-align: center;
   transition: all 0.3s ease;
 }
 
 .experience-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .experience-number {
   font-size: 3rem;
   font-weight: 800;
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

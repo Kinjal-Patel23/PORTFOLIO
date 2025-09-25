@@ -1,6 +1,8 @@
 /* components/Projects.css */
 .projects {
   position: relative;
+  background-color: #000000;
+  padding: 100px 0;
 }
 .projects-filter {
   display: flex;
@@ -11,26 +13,26 @@
 }
 .filter-btn {
   padding: 10px 25px;
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(76, 201, 240, 0.2);
+  border: 1px solid rgba(157, 78, 221, 0.2);
   border-radius: 50px;
   font-weight: 600;
-  color: #94a3b8;
+  color: #a8a8a8;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 1rem;
 }
 .filter-btn:hover {
-  border-color: #4cc9f0;
-  color: #4cc9f0;
+  border-color: #9d4edd;
+  color: #9d4edd;
   transform: translateY(-3px);
 }
 .filter-btn.active {
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   border-color: transparent;
   color: white;
-  box-shadow: 0 10px 20px rgba(76, 201, 240, 0.3);
+  box-shadow: 0 10px 20px rgba(157, 78, 221, 0.3);
 }
 .projects-grid {
   display: grid;
@@ -38,17 +40,17 @@
   gap: 30px;
 }
 .project-card {
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
-  border: 1px solid rgba(76, 201, 240, 0.1);
+  border: 1px solid rgba(157, 78, 221, 0.2);
 }
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 .project-image {
   position: relative;
@@ -70,7 +72,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(10, 14, 39, 0.7), rgba(10, 14, 39, 0.9));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +103,7 @@
   cursor: pointer;
 }
 .project-link:hover {
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   transform: scale(1.1);
 }
 .video-btn {
@@ -121,7 +123,7 @@
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: #94a3b8;
+  color: #a8a8a8;
 }
 .project-tech {
   display: flex;
@@ -130,12 +132,12 @@
 }
 .project-tech span {
   padding: 5px 15px;
-  background: rgba(76, 201, 240, 0.1);
-  color: #4cc9f0;
+  background: rgba(157, 78, 221, 0.1);
+  color: #9d4edd;
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
-  border: 1px solid rgba(76, 201, 240, 0.2);
+  border: 1px solid rgba(157, 78, 221, 0.2);
 }
 
 /* Video Modal Styles */
@@ -145,7 +147,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.95);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,10 +158,10 @@
   position: relative;
   width: 80%;
   max-width: 800px;
-  background-color: #0a0e27;
+  background-color: #000000;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 0 30px rgba(76, 201, 240, 0.3);
+  box-shadow: 0 0 30px rgba(157, 78, 221, 0.3);
 }
 
 .video-modal-content video {
@@ -180,7 +182,7 @@
 }
 
 .close-modal:hover {
-  color: #4cc9f0;
+  color: #9d4edd;
   transform: scale(1.1);
 }
 

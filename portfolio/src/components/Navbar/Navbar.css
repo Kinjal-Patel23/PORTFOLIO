@@ -7,13 +7,14 @@
   padding: 20px 0;
   z-index: 1000;
   transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar.scrolled {
-  background: rgba(10, 14, 39, 0.9);
+  background: rgba(0, 0, 0, 0.95);
   backdrop-filter: blur(10px);
   padding: 15px 0;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .navbar .container {
@@ -28,7 +29,7 @@
   color: #ffffff;
   text-decoration: none;
   font-family: 'Space Grotesk', sans-serif;
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -65,12 +66,12 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   transition: width 0.3s ease;
 }
 
 .navbar-menu ul li a:hover {
-  color: #4cc9f0;
+  color: #9d4edd;
 }
 
 .navbar-menu ul li a:hover::after {
@@ -95,7 +96,7 @@
 
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
-  background-color: #4cc9f0;
+  background-color: #9d4edd;
 }
 
 .hamburger.active span:nth-child(2) {
@@ -104,11 +105,11 @@
 
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
-  background-color: #4cc9f0;
+  background-color: #9d4edd;
 }
 
 .navbar-menu ul li a.active {
-  color: #4cc9f0;
+  color: #9d4edd;
 }
 
 .navbar-menu ul li a.active::after {
@@ -123,9 +124,9 @@
     right: 0;
     width: 70%;
     height: 100vh;
-    background: rgba(10, 14, 39, 0.95);
+    background: rgba(0, 0, 0, 0.98);
     backdrop-filter: blur(10px);
-    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.7);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease, transform 0.5s ease;

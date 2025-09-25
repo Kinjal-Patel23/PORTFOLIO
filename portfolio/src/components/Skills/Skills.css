@@ -1,15 +1,19 @@
 /* components/Skills.css */
 .skills {
   position: relative;
+  background-color: #000000;
+  padding: 100px 0;
 }
 
 .skills-content {
   display: flex;
   gap: 70px;
+  align-items: center; /* यह लाइन जोड़ी गई है */
 }
 
 .skills-text {
   flex: 1;
+  padding-top: 40px; /* यह लाइन जोड़ी गई है */
 }
 
 .skills-text h3 {
@@ -24,16 +28,16 @@
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 20px;
-  color: #94a3b8;
+  color: #a8a8a8;
 }
 
 .skills-bars {
   flex: 1;
-  background: rgba(21, 25, 55, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 30px;
-  border: 1px solid rgba(76, 201, 240, 0.1);
+  border: 1px solid rgba(157, 78, 221, 0.2);
 }
 
 .skill-item {
@@ -56,7 +60,7 @@
 }
 
 .skill-level {
-  color: #4cc9f0;
+  color: #9d4edd;
   font-weight: 600;
 }
 
@@ -69,7 +73,7 @@
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #4cc9f0, #7209b7);
+  background: linear-gradient(90deg, #9d4edd, #240046);
   border-radius: 5px;
   transition: width 1.5s ease-in-out;
   position: relative;
@@ -104,5 +108,9 @@
 @media (max-width: 992px) {
   .skills-content {
     flex-direction: column;
+  }
+  
+  .skills-text {
+    padding-top: 0; /* मोबाइल व्यू में पैडिंग हटा दी गई है */
   }
 }

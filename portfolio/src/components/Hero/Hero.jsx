@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="hero-buttons">
               <a 
-                href="/images/Kinjal_Kaneriya.pdf" 
+                href="/images/Kinjal_Kaneriya_Resume.pdf" 
                 className="btn btn-primary" 
                 download="Kinjal_Kaneriya.pdf"
               >
@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="hero-image">
             <div className="image-container">
               <div className="image-border">
-                <img src="/images/profile_img.png" alt="Profile" />
+                <img src="/images/profile_image.png" alt="Profile" />
               </div>
               <div className="image-glow"></div>
             </div>
